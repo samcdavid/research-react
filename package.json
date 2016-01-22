@@ -1,0 +1,25 @@
+{
+  "name": "research-react",
+  "version": "0.0.1",
+  "description": "research spike on react.js",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samcdavid/research-react.git"
+  },
+  "author": "Sam McDavid",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
