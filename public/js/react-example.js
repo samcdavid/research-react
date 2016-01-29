@@ -44,13 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	new webpack.DefinePlugin({
-	  "process_env": {
-	    NODE_ENV: JSON.stringify("production")
-	  }
-	});
-
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./components/comment-box.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./components/comment-box.jsx\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 
 /***/ }
