@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './public/js/index.jsx',
+  entry: './js/index.jsx',
   output: {
     filename: 'bundle.js',
     publicPath: 'http://localhost:8090/assets'
